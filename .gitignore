@@ -1,0 +1,136 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production builds
+dist/
+dist-electron/
+build/
+out/
+release/
+releases/
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+htmlcov/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+database.sqlite
+payroll.db
+test.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+~$*
+
+# Security - Never commit these
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+.env.production
+secrets/
+credentials/
+
+# Electron
+electron-builder.yml.backup
+electron-builder.env
+
+# Application specific
+/app/dist/
+/app/node_modules/
+tax_tables/*.pdf
+!tax_tables/.gitkeep
+backups/
+!backups/.gitkeep
+user_data/
+cache/
+
+# Debug
+debug/
+*.stackdump
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Lock files (comment out if you want to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
